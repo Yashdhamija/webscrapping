@@ -1,0 +1,6 @@
+This python script uses requests library to scrape the content from the real estate website
+"http://www.pyclass.com/real-estate/rock-springs-wy/LCWYROCKSPRINGS/" (educational purpose). 
+
+It finds the listing with tehir properties and value and stores it in a list.
+Using pandas library, it loads the content from the list into a dataframe and finally writes the output 
+to "Output.csv" file.
